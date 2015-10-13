@@ -1,10 +1,10 @@
 body {
   background-attachment: scroll;
   background-clip: border-box;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #00B4FC;
   background-origin: padding-box;
   background-size: auto;
-  color: rgb(51, 51, 51);
+  color: #ecf0f1; /*rgb(51, 51, 51)*/
   direction: ltr;
   display: block;
   font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -21,7 +21,6 @@ body {
   padding-right: 0px;
   padding-top: 0px;
   unicode-bidi: embed;
-  width: 1280px;
 }
 
 nav {
@@ -29,6 +28,68 @@ nav {
   background-repeat: repeat-x;
   min-height: 40px !important;
 }
+
+.masthead,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+}
+
+.masthead-heading {
+  margin-bottom: .6em;
+  font-size: 2.5em;
+}
+
+.masthead-intro {
+  margin-top: -0.1em;
+  font-size: 1.3em;
+}
+
+.info-container {
+  text-align: center;
+  background-color: #012677;
+}
+
+.info {
+  vertical-align: top;
+  display: inline-block;
+  width: 30%;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+
+.info h2 {
+  text-align: center;
+}
+
+.info h3 {
+  font-weight: 300;
+  letter-spacing: .5px;
+}
+
+.info p {
+  color: #00B4FC;
+}
+
+.info:first-child {
+  padding: 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 5em;
+}
+
+
+/* =================== 
+  End Self-Styles ----
+  ==================*/
+
+
 
 .nav-logo-link {
   height: 12px;
